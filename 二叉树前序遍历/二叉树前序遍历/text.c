@@ -62,7 +62,6 @@ int left = LeafSize(root->left);
 int right = LeafSize (root->right);
 return left + right;
 }
-
 //求二叉树的高度
 //递推  终止条件
 int GetHeight(Node *root){
