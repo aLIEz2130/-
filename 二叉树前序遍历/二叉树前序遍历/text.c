@@ -9,7 +9,6 @@ typedef struct Node{
 	int value;
 	struct Node *left;//
 	struct Node *right;//
-
 };
 void PreorderTraversal(Node *root){
 	if (root == NULL){  //¿ÕÊ÷
