@@ -18,7 +18,6 @@ void PreorderTraversal(Node *root){
 	PreorderTraversal(root -> left);
 	PreorderTraversal(root -> right);
 }
-
 //中序遍历
 void INorder(Node *root){
 	//左子树 根 右子树
